@@ -11,7 +11,9 @@ class QtGui_DectectLetterFromImage : public QDialog
 
 public:
     QImage m_qImage;
+    QImage m_qImageOutput;
     QtGui_DectectLetterFromImage(QWidget *parent = Q_NULLPTR, Qt::WindowFlags f = Qt::WindowFlags());
+    void scaleAndDisplayToGraphicsView(QImage image, GraphicViewsNum graphicsViewNum);
 protected:
     void resizeEvent(QResizeEvent *event);
 private:

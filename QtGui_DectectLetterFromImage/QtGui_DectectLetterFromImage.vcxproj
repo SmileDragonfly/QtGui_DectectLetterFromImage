@@ -131,6 +131,7 @@
     <ClCompile Include="trace.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="StructureAndDefinition.h" />
     <ClInclude Include="trace.h" />
     <QtMoc Include="qtgui_dectectletterfromimage.h" />
     <ClInclude Include="stdafx.h" />

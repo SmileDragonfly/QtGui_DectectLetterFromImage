@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>988</width>
-    <height>413</height>
+    <width>687</width>
+    <height>817</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,12 +18,12 @@
     <rect>
      <x>20</x>
      <y>70</y>
-     <width>551</width>
-     <height>321</height>
+     <width>640</width>
+     <height>360</height>
     </rect>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -44,6 +44,16 @@
      <widget class="QLineEdit" name="inputImageEdit"/>
     </item>
    </layout>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsViewOut">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>640</width>
+     <height>360</height>
+    </rect>
+   </property>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
