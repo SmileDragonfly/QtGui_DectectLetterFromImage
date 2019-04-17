@@ -10,6 +10,7 @@ class QtGui_DectectLetterFromImage : public QDialog
     Q_OBJECT
 
 public:
+    QImage m_qImage;
     QtGui_DectectLetterFromImage(QWidget *parent = Q_NULLPTR, Qt::WindowFlags f = Qt::WindowFlags());
 protected:
     void resizeEvent(QResizeEvent *event);
